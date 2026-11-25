@@ -1,0 +1,6 @@
+{
+  "scope": "single process in-memory SQLite submit and process",
+  "transfers": 5000,
+  "perSecond": 992,
+  "discrepancies": 0
+}

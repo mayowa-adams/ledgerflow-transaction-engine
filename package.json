@@ -1,0 +1,14 @@
+{
+  "name": "ledgerflow-transaction-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.16"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types src/server.ts",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "bench": "node --experimental-strip-types scripts/bench.ts"
+  }
+}
